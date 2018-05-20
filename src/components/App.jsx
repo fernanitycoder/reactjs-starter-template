@@ -10,6 +10,14 @@ class Header extends React.Component {
                     <li className="nav-item"><a href="#">Home</a></li>
                     <li className="nav-item"><a href="#">About</a></li>
                     <li className="nav-item"><a href="#">Contact</a></li>
+                    <li className="nav-item">
+                        <a href="#">
+                            <span>User account</span>
+                            <ul className="dropdown">
+                                <li className="dropdown-item">Profile</li>
+                            </ul>
+                        </a>
+                    </li>
                 </ul>
             </nav>
         )
