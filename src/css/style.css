@@ -1,0 +1,18 @@
+body, html {
+    font-family: "Verdana", sans-serif;
+}
+
+nav ul.navbar {
+    list-style-type: none;
+    margin: 0px; padding: 0px;
+}
+
+nav ul.navbar li.nav-item {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 50%;
+}
